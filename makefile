@@ -4,7 +4,7 @@ CFLAGS = -Wall
 all: manager
 
 manager: manager.c
-	$(CC) $(CFLAGS) -o manager manager.c
+	$(CC) $(CFLAGS) -o a.out manager.c
 
 clean:
-	rm -f manager
+	rm -f a.out
